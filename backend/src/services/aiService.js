@@ -32,7 +32,7 @@ export const generateAiResponse = async ({ message, language = 'en', history = [
 
   try {
     const model = genAI.getGenerativeModel({
-      model: 'gemini-1.5-flash',
+      model: 'gemini-2.5-flash',
       systemInstruction: `You are VoiceBridge AI, a helpful, friendly, and knowledgeable multilingual voice assistant designed to help students, parents, and citizens communicate with educational institutions and public organizations.
 Your responses should be:
 1. Direct, clear, and informative.
